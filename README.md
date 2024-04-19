@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Selamat Datang di LungoGo 🌍
+Selamat datang di LungoGo, sebuah proyek web travel yang saya kembangkan. Proyek ini merupakan bagian dari perjalanan saya sebagai seorang pengembang Frontend.
 
-## Getting Started
+Tentang LungoGo
+LungoGo adalah sebuah platform web yang dibuat untuk membantu para pelancong merencanakan dan menyusun perjalanan mereka dengan lebih mudah. Dengan LungoGo, Anda dapat menemukan destinasi wisata yang menarik, merencanakan rute perjalanan, dan mendapatkan informasi lengkap tentang tempat-tempat yang akan Anda kunjungi.
 
-First, run the development server:
+Tentang Proyek
+Proyek LungoGo ini adalah hasil dari perjalanan saya sebagai pengembang Frontend. Saya berfokus untuk mengembangkan antarmuka pengguna yang menarik, responsif, dan mudah digunakan agar pengguna dapat merasakan pengalaman perjalanan yang menyenangkan.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Teknologi yang Digunakan
+Proyek LungoGo menggunakan berbagai teknologi modern dalam pengembangannya, antara lain:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+React: Sebagai library JavaScript utama untuk membangun antarmuka pengguna yang dinamis dan responsif.
+Tailwind CSS: Digunakan untuk styling dan desain antarmuka pengguna dengan pendekatan utility-first.
+axios: Untuk melakukan permintaan HTTP ke server backend dan mengambil data.
+Cara Menggunakan
+Clone Repository: Salin repositori ini ke komputer lokal Anda dengan perintah git clone https://github.com/username/LungoGo.git.
+Install Dependencies: Masuk ke direktori proyek dan jalankan npm install untuk menginstal semua dependensi yang diperlukan.
+Mulai Server: Jalankan perintah npm start untuk memulai server pengembangan lokal.
+Akses Aplikasi: Buka browser Anda dan akses aplikasi di http://localhost:3000.
+Kontribusi
+Kontribusi dari berbagai pihak sangat kami hargai. Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah berikut:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ajukan Issue: Laporkan masalah atau saran fitur baru dengan membuat issue di repositori ini.
+Kirim Pull Request: Jika Anda telah membuat perubahan yang ingin Anda usulkan, kirimkan pull request dan kami akan tinjau dengan senang hati.
