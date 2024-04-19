@@ -14,7 +14,7 @@ Proyek LungoGo ini adalah hasil dari perjalanan saya sebagai pengembang Frontend
 
 Proyek LungoGo menggunakan berbagai teknologi modern dalam pengembangannya, antara lain:
 
-- **React**: Sebagai library JavaScript utama untuk membangun antarmuka pengguna yang dinamis dan responsif.
+- **NextJS**: Sebagai framework JavaScript untuk membangun antarmuka pengguna yang dinamis dan responsif.
 - **Tailwind CSS**: Digunakan untuk styling dan desain antarmuka pengguna dengan pendekatan utility-first.
 - **axios**: Untuk melakukan permintaan HTTP ke server backend dan mengambil data.
 
