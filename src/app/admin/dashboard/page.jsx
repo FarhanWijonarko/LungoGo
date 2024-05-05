@@ -43,7 +43,7 @@ const Dashboard = () => {
       <Sidebar />
       <div className="py-20 px-10 flex flex-col">
         <h1 className="text-4xl font-bold text-sky-700">Welcome Admin...</h1>
-        <p className="text-xl mt-5 font-semibold text-sky-700">Good luck and don't Forget to Smile :) </p>
+        <p className="text-xl mt-5 font-semibold text-sky-700">Good luck and dont Forget to Smile :) </p>
         <h1 className="text-3xl mt-20 font-bold text-sky-700">Dashboard</h1>
         <div className="grid grid-cols-3 gap-10 mt-10">
           <div className="w-64 h-32 justify-center flex flex-col gap-4 text-center px-5 border-l-8 border-sky-700 bg-white rounded shadow-xl">
