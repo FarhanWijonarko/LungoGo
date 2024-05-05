@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Pencil, PlusCircle } from '@phosphor-icons/react';
 import DelPromo from './DelPromo';
+import Image from 'next/image';
 
 const Promo = () => {
   const [data, setData] = useState([]);
@@ -38,7 +39,7 @@ const Promo = () => {
           {data.map((promo) => (
             <Link href={`/admin/dashboard/promo/detail/${promo.id}`} class="w-100 h-50 border-l-8 border-sky-700 flex rounded p-10 overflow-hidden shadow-lg hover:shadow-2xl" key={promo.id}>
               <div className=" w-72">
-                <img class="w-40 mt-3 px-4" src={promo.imageUrl} alt="" />
+                <Image class="w-40 mt-3 px-4" src={promo.imageUrl} alt="" />
                 <div class="px-6 py-4">
                   <div class="font-bold text-2xl mb-4">{promo.title}</div>
                   <p class="text-rose-500 font-bold">

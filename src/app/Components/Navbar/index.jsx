@@ -3,23 +3,17 @@
 import Link from 'next/link';
 import Logout from '../Logout';
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 const Navbar = () => {
   const token = localStorage.getItem('token');
   const role = localStorage.getItem('role');
-  // if (!token) {
-  //   window.location.href = '/auth/login';
-  // }
-  // const role = localStorage.getItem('role');
-  // if (!token || role !== 'user') {
-  //   window.location.href = '/auth/login';
-  // }
 
   return (
     <div className="bg-white shadow-lg fixed w-9/12 z-10 rounded-full justify-self-center top-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5 px-11 ">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/img/LogoTravel.png" width={45} alt="" />
+          <Image src="/img/LogoTravel.png" width={45} alt="" />
           <h1 className="text-2xl font-bold text-sky-700">LungoGo</h1>
         </Link>
         <button

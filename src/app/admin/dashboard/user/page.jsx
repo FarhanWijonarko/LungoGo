@@ -6,6 +6,7 @@ import { Pencil, PlusCircle } from '@phosphor-icons/react';
 import DelPromo from '../promo/DelPromo';
 import Link from 'next/link';
 import Sidebar from '@/app/admin/Components/SideBar/index.jsx';
+import Image from 'next/image';
 
 const User = () => {
   const [data, setData] = useState([]);
@@ -44,9 +45,9 @@ const User = () => {
           {data.map((data, index) => (
             <div className="border-2 p-5 rounded-xl w-full flex gap-5" key={index}>
               {data.profilePictureUrl ? (
-                <img className="w-40 rounded-lg h-52" src={data.profilePictureUrl} alt="" />
+                <Image className="w-40 rounded-lg h-52" src={data.profilePictureUrl} alt="" />
               ) : (
-                <img className="w-40 rounded-lg h-52" src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg" alt="" />
+                <Image className="w-40 rounded-lg h-52" src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg" alt="" />
               )}
               <div className=" w-full p-5 rounded-2xl">
                 <h1 className="font-bold text-sky-700">

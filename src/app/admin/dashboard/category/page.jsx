@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Sidebar from '../../Components/SideBar';
 import { Pencil, PlusCircle } from '@phosphor-icons/react';
 import DelCategory from './DelCategory';
+import Image from 'next/image';
 
 const Category = () => {
   const [data, setData] = useState([]);
@@ -38,7 +39,7 @@ const Category = () => {
           {data.map((category) => (
             <div className="bg-gray-100 rounded-2xl mt-10 shadow-lg" key={category.id}>
               <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl h-72 px-8 pb-8 pt-40 max-w-sm mx-auto">
-                <img src={category.imageUrl} alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover" />
+                <Image src={category.imageUrl} alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover" />
                 <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
                 <h3 class="z-10 mt-3 text-3xl font-bold text-white">{category.name}</h3>
               </div>

@@ -3,6 +3,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { ArrowCircleLeft } from '@phosphor-icons/react';
+import Image from 'next/image';
 
 const Detail = ({ params: { id } }) => {
   const [data, setData] = useState({});
@@ -31,7 +32,7 @@ const Detail = ({ params: { id } }) => {
         <h1 className="text-3xl font-bold text-sky-700">Detail Promo</h1>
       </div>
       <div className="flex flex-col gap-5 w-1/2 justify-center">
-        <img src={data.imageUrl} alt="" className="w-full h-96 rounded-xl" />
+        <Image src={data.imageUrl} alt="" className="w-full h-96 rounded-xl" />
         <div className="bg-[#fffaf0] p-5 rounded-2xl">
           <h1>
             <span className="font-bold text-sky-700">Name :</span> {data.title}

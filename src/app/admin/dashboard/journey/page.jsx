@@ -5,6 +5,7 @@ import Sidebar from '../../Components/SideBar';
 import axios from 'axios';
 import { Star, PlusCircle, Pencil } from '@phosphor-icons/react';
 import DelJourney from './DelJourney';
+import Image from 'next/image';
 
 const Journey = () => {
   const [data, setData] = useState([]);
@@ -40,7 +41,7 @@ const Journey = () => {
               <div class="max-w-sm h-50 rounded p-2 overflow-hidden shadow-lg hover:shadow-2xl" key={data.id}>
                 <div className="flex flex-col space-y-14 justify-center items-between">
                   <div>
-                    <img class="rounded-lg h-60 object-cover w-full mt-2" src={data.imageUrls} alt="" />
+                    <Image class="rounded-lg h-60 object-cover w-full mt-2" src={data.imageUrls} alt="" />
                     <div class="px-6 py-4">
                       <h1 class="font-bold text-2xl mb-4">{data.title}</h1>
                       <div className="font-bold">
